@@ -3,75 +3,75 @@ import { Timeline } from "@/components/ui/timeline"
 export function ApplicationsTimeline() {
   const data = [
     {
-      title: "Медицинское восстановление",
+      title: "Выберите формат",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Революционное лечение паралича, травм спинного мозга и нейродегенеративных заболеваний. Восстановление
-            моторных функций и независимости миллионам людей по всему миру.
+            Определитесь с носителем — виниловая пластинка или компакт-кассета. Каждый формат имеет свой характер
+            звука и визуальные возможности для оформления.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Восстановление при тетра- и параплегии
+              Виниловый диск — 7", 10" или 12"
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Контроль симптомов БАС и Паркинсона
+              Компакт-кассета — С30, С60, С90
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Ускорение реабилитации после инсульта
+              Любой цвет и материал носителя
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Когнитивное усиление",
+      title: "Загрузите аудио и дизайн",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Усиление человеческого интеллекта, памяти и способности к обучению. Прямые нейроинтерфейсы для
-            улучшенной когнитивной производительности и обработки информации.
+            Пришлите нам ваши аудиофайлы и пожелания по дизайну. Наши специалисты подготовят мастер-файлы
+            для записи и разработают уникальное оформление под ваш стиль.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Улучшение памяти и оптимизация запоминания
+              Принимаем WAV, FLAC, AIFF
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Ускоренное обучение и освоение навыков
+              Бесплатная консультация по мастерингу
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Перевод языков в реальном времени
+              Дизайн этикетки, обложки и вкладыша
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Цифровая интеграция",
+      title: "Получите готовый продукт",
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Бесшовное соединение человеческого сознания с цифровыми системами. Управление устройствами,
-            доступ к информации и общение силой мысли.
+            Мы изготовим ваш заказ и бережно упакуем для доставки. От одного экземпляра до
+            целого тиража — каждый носитель проходит контроль качества.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Управление устройствами силой мысли
+              Заказы от 1 экземпляра
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Прямой доступ к интернету и облаку
+              Доставка по России и СНГ
             </div>
             <div className="flex items-center gap-3 text-red-400 text-sm">
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-              Телепатические сети связи
+              Контроль качества перед отправкой
             </div>
           </div>
         </div>
@@ -83,10 +83,9 @@ export function ApplicationsTimeline() {
     <section id="applications" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
         <div className="text-center mb-16">
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6">Трансформирующие применения</h2>
+          <h2 className="font-display text-3xl md:text-5xl font-bold text-white mb-6">Как это работает</h2>
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Технологии SynapseAI открывают беспрецедентные возможности для усиления человека, медицинского
-            лечения и цифровой интеграции в множестве областей.
+            Три простых шага от идеи до готового кастомного носителя с вашей музыкой и уникальным дизайном.
           </p>
         </div>
 

@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Алексей Морозов",
+    role: "Независимый музыкант, Москва",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Заказал тираж кассет для своего альбома — получилось невероятно. Качество записи и печать просто на высшем уровне. Все фанаты в восторге!",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Дарья Соколова",
+    role: "Организатор арт-маркета",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Сделали кастомные виниловые пластинки как подарки для участников нашего события. Гости были шокированы — такого они явно не ожидали.",
+  },
+  {
+    name: "Ольга Кириллова",
+    role: "Основатель инди-лейбла",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Работаем с ними уже третий год. Надёжные сроки, честные цены и отличный результат. Лучший партнёр для малых тиражей на рынке.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят наши клиенты</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Музыканты, лейблы и организаторы событий уже оценили качество нашей работы
           </p>
         </div>
 
