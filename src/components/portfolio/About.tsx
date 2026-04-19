@@ -15,22 +15,20 @@ export default function About() {
             className="text-5xl font-black uppercase leading-tight mb-8"
             style={{ fontFamily: "'Play', sans-serif" }}
           >
-            Art for
+            Mortios
             <br />
             <span
               className="text-transparent"
               style={{ WebkitTextStroke: "1px rgba(255,255,255,0.25)" }}
             >
-              Every Format
+              Mori
             </span>
           </h2>
           <p className="text-white/40 text-lg leading-relaxed mb-6">
-            I create artwork for physical music formats — vinyl records, CDs, and cassettes. 
-            Each piece is designed to exist as both visual art and functional packaging.
+            Молодой дизайнер, специализирующийся на создании эксклюзивных виниловых пластинок, DVD-дисков и карманных кассет. Каждый продукт — уникальный арт-объект, воплощающий инновационные подходы к типографике, композиции и материалам.
           </p>
           <p className="text-white/25 text-base leading-relaxed">
-            Drawing from ukiyo-e tradition, street art, and contemporary digital aesthetics, 
-            my work bridges centuries of visual culture through the lens of recorded sound.
+            Моя работа направлена на интеграцию традиционных технологий с современными дизайнерскими концепциями — создавая изделия, обладающие не только эстетической, но и функциональной ценностью.
           </p>
         </div>
 
