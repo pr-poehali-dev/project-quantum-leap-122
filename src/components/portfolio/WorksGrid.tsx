@@ -46,6 +46,15 @@ const works = [
     tag: "Vinyl",
     description: "Kanagawa wave printed onto black vinyl with crimson label.",
   },
+  {
+    id: 6,
+    title: '"This Is Not AI"',
+    category: "cassette",
+    year: "2025",
+    image: "https://cdn.poehali.dev/projects/8774fd28-1848-4ff9-8e82-cd0013de8cac/bucket/97441adc-c194-49a7-b839-0a21ebea9599.jpg",
+    tag: "Cassette Art",
+    description: "Mirror typography statement on white cassette body and case. Bold letterpress aesthetic.",
+  },
 ];
 
 const filters = [
